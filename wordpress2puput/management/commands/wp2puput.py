@@ -19,8 +19,8 @@ from django.core.management.base import CommandError
 from django.core.management.base import LabelCommand
 from django.core.files.temp import NamedTemporaryFile
 
-from wagtail.wagtail.core.models import Page
-from wagtail.wagtail.images.models import Image as WagtailImage
+from wagtail.core.models import Page
+from wagtail.images.models import Image as WagtailImage
 from puput.models import BlogPage, EntryPage, TagEntryPage as PuputTagEntryPage, Tag as PuputTag, \
     Category as PuputCategory, CategoryEntryPage as PuputCategoryEntryPage
 
